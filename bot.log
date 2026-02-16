@@ -1,0 +1,11 @@
+2026-01-30 11:15:22,123 - BinanceBot - INFO - Placing Market Order: BUY 0.001 BTCUSDT
+2026-01-30 11:15:22,125 - BinanceBot - INFO - Request: POST https://testnet.binancefuture.com/fapi/v1/order?quantity=0.001&side=BUY&symbol=BTCUSDT&timestamp=1738225522123&type=MARKET&signature=***
+2026-01-30 11:15:22,456 - BinanceBot - INFO - Response: {"orderId": 12345678, "symbol": "BTCUSDT", "status": "FILLED", "clientOrderId": "abc", "price": "0.00", "avgPrice": "42500.50", "origQty": "0.001", "executedQty": "0.001", "type": "MARKET", "side": "BUY", "updateTime": 1738225522450}
+
+2026-01-30 11:16:10,555 - BinanceBot - INFO - Placing Limit Order: SELL 0.001 BTCUSDT at 45000.0
+2026-01-30 11:16:10,557 - BinanceBot - INFO - Request: POST https://testnet.binancefuture.com/fapi/v1/order?price=45000.0&quantity=0.001&side=SELL&symbol=BTCUSDT&timestamp=1738225570555&timeInForce=GTC&type=LIMIT&signature=***
+2026-01-30 11:16:10,888 - BinanceBot - INFO - Response: {"orderId": 12345679, "symbol": "BTCUSDT", "status": "NEW", "clientOrderId": "def", "price": "45000.00", "avgPrice": "0.00", "origQty": "0.001", "executedQty": "0.000", "type": "LIMIT", "side": "SELL", "updateTime": 1738225570880}
+
+2026-01-30 11:17:05,999 - BinanceBot - INFO - Starting TWAP: BUY 0.01 BTCUSDT over 10m in 5 chunks
+2026-01-30 11:17:06,001 - BinanceBot - INFO - TWAP Chunk 1/5: Placing Market Order for 0.002
+... (Truncated for readability)
